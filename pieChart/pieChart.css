@@ -1,0 +1,23 @@
+.arc path {
+  stroke: #fff;
+}
+
+.tooltip {
+    line-height: 1;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+	border-radius: 2px;
+	position:absolute;
+	text-align:center;
+}
+
+rect {
+	cursor: pointer;
+	stroke-width: 2;
+}
+rect.disabled {
+	fill: transparent !important;
+}
